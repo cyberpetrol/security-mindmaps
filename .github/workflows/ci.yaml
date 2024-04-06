@@ -25,7 +25,7 @@ jobs:
       - name: Install templum and build docs
         run: |
           go install github.com/cugu/templum/cmd/templum@latest
-          templum --content content --output public --url "https://cugu.github.io/roadmaps/"
+          templum --content content --output public --url "https://cyberpetrol.github.io/security-mindmaps/"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
