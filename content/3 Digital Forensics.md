@@ -14,16 +14,22 @@ Yara: |md
 Analysis -> Live Response
 Analysis -> Manual Investigation
 
-Digital Forensics -> Artifact Analysis -> Analysis Pipeline -> Software
-Artifact Analysis -> Artifact/Malware Database
-Artifact/Malware Database: |md
-    [Artifact/Malware Database](https://mwdb.readthedocs.io/en/latest/)
+Digital Forensics -> Artifact Analysis -> Analysis Pipeline -> karton
+karton: |md
+    [karton](https://github.com/CERT-Polska/karton)
+|
+Artifact Analysis -> Artifact/Malware Database -> MWDB
+MWDB: |md
+    [MWDB](https://github.com/CERT-Polska/mwdb-core)
 |
 Artifact Analysis -> Email Analysis
 Artifact Analysis -> Known Hash DB
 
 Digital Forensics -> Evidence Collection -> Endpoint -> Computer
-Endpoint -> Mobile
+Endpoint -> Mobile -> mvt
+mvt: |md
+    [mvt](https://github.com/mvt-project/mvt)
+|
 Evidence Collection -> Cloud
 Evidence Collection -> Artifact Collection
 Evidence Collection -> Memory
